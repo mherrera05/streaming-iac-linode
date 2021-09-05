@@ -38,9 +38,9 @@ tfenv
 You will need add some environment variables to your system, such as Linode Token and SSH Keys
 
 ```
-export TF_LINODE_TOKEN=<linode-token-value>
-export TF_SSH_KEY=<linode-token-value>
-export TF_ROOT_PASSWORD=<linode-token-value>
+export TF_VAR_LINODE_TOKEN=<linode-token-value>
+export TF_VAR_SSH_KEY=<linode-token-value>
+export TF_VAR_ROOT_PASSWORD=<linode-token-value>
 ```
 
 You should see your environment variables running env command.
