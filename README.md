@@ -30,10 +30,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+You will need to install the following packages and binaries on your machine. And Linode account as well
 
 ```
-Give examples
+Linode account
+Terraform v1.0.5
+tfenv
 ```
 
 ### Installing
