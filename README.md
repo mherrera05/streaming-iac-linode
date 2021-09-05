@@ -10,20 +10,23 @@ Build your own server with insfrastructure as code
 
 ## 📝 Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Linode Server using Terraform](#linode-server-using-terraform)
+- [📝 Table of Contents](#-table-of-contents)
+- [🧐 About](#-about)
+- [🏁 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+- [🎈 Usage](#-usage)
+- [✍️ Authors](#️-authors)
+- [🎉 Acknowledgements](#-acknowledgements)
 
-## 🧐 About <a name = "about"></a>
+## 🧐 About
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This project allows you to create your own instance on Linode.com using terraform as infrastructure as code tool.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -47,41 +50,20 @@ You should see your environment variables running env command.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+To get this code run the following command
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
 
 ```
-until finished
+git clone https://github.com/mherrera05/streaming-iac-linode.git <folder-name>
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Inside the folder, run the command
 
 ```
-Give an example
+> terraform init
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+This will download all dependencies.
 
 ## 🎈 Usage
 
@@ -102,14 +84,11 @@ Terraform apply will run the instructions to create resources.
 ```
 Terraform destroy will remove the created resources.
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Authors
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [migueljherrera](https://github.com/mherrera05) - Full Stack Developer
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+## 🎉 Acknowledgements
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [Terraform by Hashicorp](https://www.terraform.io)
+- [Linode](https://linode.com)
