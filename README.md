@@ -14,9 +14,6 @@ Build your own server with insfrastructure as code
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
 - [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -86,20 +83,24 @@ Explain what these tests test and why
 Give an example
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## 🎈 Usage
 
-Add notes about how to use the system.
+To create, modifiy and destroy your infra you just need to run the following command
 
-## 🚀 Deployment <a name = "deployment"></a>
+```
+> terraform plan
+```
+To show the plan and the resources that need to be added.
 
-Add additional notes about how to deploy this on a live system.
+```
+> terraform apply
+```
+Terraform apply will run the instructions to create resources.
 
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+```
+> terraform destroy
+```
+Terraform destroy will remove the created resources.
 
 ## ✍️ Authors <a name = "authors"></a>
 
