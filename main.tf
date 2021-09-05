@@ -1,15 +1,3 @@
-terraform {
-  required_providers {
-    linode = {
-      source  = "linode/linode"
-    }
-  }
-}
-
-provider "linode" {
-  token = var.LINODE_TOKEN
-}
-
 resource "linode_instance" "server" {
   label = "server"
   image = "linode/ubuntu20.10"
@@ -19,12 +7,4 @@ resource "linode_instance" "server" {
 
   group = "server"
   tags = [ "server" ]
-}
-
-variable "LINODE_TOKEN" {
-  type = string
-}
-
-variable "ROOT_PASSWORD" {
-    type = string
 }
