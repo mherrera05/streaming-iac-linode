@@ -38,6 +38,16 @@ Terraform v1.0.5
 tfenv
 ```
 
+You will need add some environment variables to your system, such as Linode Token and SSH Keys
+
+```
+export TF_LINODE_TOKEN=<linode-token-value>
+export TF_SSH_KEY=<linode-token-value>
+export TF_ROOT_PASSWORD=<linode-token-value>
+```
+
+You should see your environment variables running env command.
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running.
