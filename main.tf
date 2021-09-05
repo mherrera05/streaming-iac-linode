@@ -15,7 +15,7 @@ resource "linode_instance" "server" {
   image = "linode/ubuntu20.10"
   region = "us-central"
   type = "g6-nanode-1"
-  root_pass = "terr4form-test"
+  root_pass = var.ROOT_PASSWORD
 
   group = "server"
   tags = [ "server" ]
@@ -23,4 +23,8 @@ resource "linode_instance" "server" {
 
 variable "LINODE_TOKEN" {
   type = string
+}
+
+variable "ROOT_PASSWORD" {
+    type = string
 }
