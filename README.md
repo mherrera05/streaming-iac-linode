@@ -5,7 +5,7 @@
 Linode Server using Terraform
 ---
 
-Build your own server with insfrastructure as code
+Build your own server with infrastructure as code
 
 
 ## 📝 Table of Contents
