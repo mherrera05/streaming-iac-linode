@@ -18,6 +18,7 @@ Build your own server with insfrastructure as code
   - [Installing](#installing)
 - [🎈 Usage](#-usage)
 - [✍️ Authors](#️-authors)
+- [Reference](#reference)
 - [🎉 Acknowledgements](#-acknowledgements)
 
 ## 🧐 About
@@ -88,7 +89,9 @@ Terraform destroy will remove the created resources.
 
 - [migueljherrera](https://github.com/mherrera05) - Full Stack Developer
 
-## 🎉 Acknowledgements
+## Reference
 
 - [Terraform by Hashicorp](https://www.terraform.io)
 - [Linode](https://linode.com)
+
+## 🎉 Acknowledgements
