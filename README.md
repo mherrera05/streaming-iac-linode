@@ -1,6 +1,5 @@
-
-![terraform](https://i1.wp.com/foghornconsulting.com/wp-content/uploads/2020/07/Terraform-Logo-1.png?fit=992%2C560&ssl=1)
-![linode](https://www.linode.com/wp-content/uploads/2021/05/logo-with-padding.png)
+<img src="https://i1.wp.com/foghornconsulting.com/wp-content/uploads/2020/07/Terraform-Logo-1.png?fit=992%2C560&ssl=1" alt="linode" width="300px">
+<img src="https://www.linode.com/wp-content/uploads/2021/05/logo-with-padding.png" alt="linode" width="300px">
 
 Linode Server using Terraform
 ---
@@ -19,7 +18,7 @@ Build your own server with infrastructure as code
 - [🎈 Usage](#-usage)
 - [✍️ Authors](#️-authors)
 - [Reference](#reference)
-- [🎉 Acknowledgements](#-acknowledgements)
+- [Streaming](#streaming)
 
 ## 🧐 About
 
@@ -94,4 +93,6 @@ Terraform destroy will remove the created resources.
 - [Terraform by Hashicorp](https://www.terraform.io)
 - [Linode](https://linode.com)
 
-## 🎉 Acknowledgements
+## Streaming
+[Crear maquina virtual en Linode usando Terraform (Streamed on Twitch)](https://www.youtube.com/watch?v=YskLa3vrjMY)
+
